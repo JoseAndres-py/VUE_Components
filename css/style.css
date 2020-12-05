@@ -2,6 +2,9 @@
     background-color: #d5f7e6;
     color: black;
     font-size: large;
+    height: 5.5em;
+    display: flex;
+    align-items: center;
 }
 
 .body-section{
@@ -11,4 +14,22 @@
     text-align: center;
     padding: 15px;
     padding-bottom: 20px;
+}
+
+.btn-green{
+    color: #000;
+    background-color: #d5f7e6;
+    border-color: #d5f7e6;
+}
+
+.card{
+    height: 100%;
+}
+
+.card-body > *{
+    padding: 12px;
+}
+
+.card-text{
+    height: 60%;
 }
