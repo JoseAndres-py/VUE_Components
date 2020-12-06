@@ -1,6 +1,9 @@
 <template>
     <!-- news -->
-    <div class="container-fluid">
+    <div class="container-fluid" id="news">
+      <div class="text-center p-3 mb-2 bg-green text-dark title-section justify-content-center">
+            <h2>Ultimas Noticias</h2>
+      </div>
         <div class="row mt-md-3 mt-sm-3 mt-xs-3  mb-5 " >
             <div class="col-lg-6 col-xs-12 p-3" v-for="(item, index) in news" :key="index">
                 <div class="row d-flex justify-content-center align-items-center news-item p-2 pt-4 pb-4 text-justify card-news bg-light">

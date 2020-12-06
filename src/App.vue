@@ -8,13 +8,10 @@
     <section-services></section-services>
     
     <!-- Section Api -->
-      <div class="text-center p-3 mb-2 bg-green text-dark title-section justify-content-center">
-            <h2>Ultimas Noticias</h2>
-      </div>
     <section-api></section-api>
     
     <!-- members -->
-    <div class="container-fluid">
+    <div class="container-fluid" id="team">
       <div class="text-center p-3 mb-2 bg-green text-dark title-section justify-content-center">
             <h2>Equipo de Desarrollo</h2>
       </div>
