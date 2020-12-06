@@ -1,7 +1,11 @@
 <template>
   <div id="app">
+    
     <!-- Header -->
     <top-banner></top-banner>
+    
+     <!-- Services -->
+    <section-services></section-services>
     
     <!-- Section Api -->
       <div class="text-center p-3 mb-2 bg-green text-dark title-section justify-content-center">
@@ -29,6 +33,7 @@
 
 <script>
 
+import SectionServices from './components/SectionServices.vue' 
 import TeamCard from './components/TeamCard.vue'
 import SectionApi from './components/SectionApi.vue'
 import PageFooter from './components/PageFooter.vue'
@@ -41,6 +46,7 @@ export default {
     SectionApi,
     PageFooter,
     TopBanner,
+    SectionServices
   },
   data() {
     return {
