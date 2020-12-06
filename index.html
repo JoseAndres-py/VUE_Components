@@ -10,29 +10,30 @@
     <link rel="stylesheet " href="./css/normalize.css ">
     <link rel="stylesheet " href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css " integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2
         " crossorigin="anonymous ">
+    <link rel="stylesheet" href="/semana-2-193/css/style.css">
 
 </head>
 <body>
 
     <!-- Image and text -->
-    <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark ">
-        <a class="navbar-brand " href="# ">
-            <img src="https://getbootstrap.com/docs/4.5/assets/brand/bootstrap-solid.svg " width="30 " height="30
-        " class="d-inline-block align-top " alt=" " loading="lazy "> Bootstrap
+    <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-green">
+        <a class="navbar-brand text-dark font-weight-bold" href="# ">
+            <img src="/semana-2-193/img/icono.png" width="30 " height="30
+        " class="d-inline-block align-top" alt=" " loading="lazy "> Desarrollo Web
         </a>
         <div class="collapse navbar-collapse justify-content-end " id="navbarNav ">
-            <ul class="navbar-nav ">
+            <ul class="navbar-nav">
                 <li class="nav-item active ">
-                    <a class="nav-link " href="# ">Home <span class="sr-only ">(current)</span></a>
+                    <a class="nav-link text-dark font-weight-bold" href="# ">Inicio <span class="sr-only ">(current)</span></a>
                 </li>
                 <li class="nav-item ">
-                    <a class="nav-link " href="# ">Features</a>
+                    <a class="nav-link text-dark font-weight-bold" href="#services ">Servicios</a>
                 </li>
                 <li class="nav-item ">
-                    <a class="nav-link " href="# ">Pricing</a>
+                    <a class="nav-link text-dark font-weight-bold" href="#news ">Noticias</a>
                 </li>
                 <li class="nav-item ">
-                    <a class="nav-link disabled " href="# " tabindex="-1 " aria-disabled="true ">Disabled</a>
+                    <a class="nav-link disabled text-dark font-weight-bold" href="#team " tabindex="-1 " aria-disabled="true ">Equipo</a>
                 </li>
             </ul>
         </div>
@@ -47,33 +48,24 @@
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" xmlns="http://www.w3.org/2000/svg"
-                    preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: First slide"><title>Placeholder</title>
-                    <rect
-                        width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#555" dy=".3em">First slide</text></svg>
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>First slide label</h5>
-                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                <img class="d-block w-100" width="800" height="400" src="/semana-2-193/img/banner.jpg" alt="First slide">
+                <div class="carousel-caption d-none d-md-block texto-borde">
+                    <h5>Bienvenido</h5>
+                    <p>Es un placer para nosotros prestarle nuestros servicios</p>
                 </div>
             </div>
             <div class="carousel-item">
-                <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" xmlns="http://www.w3.org/2000/svg"
-                    preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Second slide"><title>Placeholder</title>
-                    <rect
-                        width="100%" height="100%" fill="#666"></rect><text x="50%" y="50%" fill="#444" dy=".3em">Second slide</text></svg>
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Second slide label</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <img class="d-block w-100" width="800" height="400" src="/semana-2-193/img/banner2.jpg" alt="First slide">
+                <div class="carousel-caption d-none d-md-block texto-borde">
+                    <h5>Java y Phyton</h5>
+                    <p>Dos lenguajes más demandados en la industria</p>
                 </div>
             </div>
             <div class="carousel-item">
-                <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" xmlns="http://www.w3.org/2000/svg"
-                    preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Third slide"><title>Placeholder</title>
-                    <rect
-                        width="100%" height="100%" fill="#555"></rect><text x="50%" y="50%" fill="#333" dy=".3em">Third slide</text></svg>
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Third slide label</h5>
-                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                <img class="d-block w-100" width="800" height="400" src="/semana-2-193/img/banner3.jpg" alt="First slide">
+                <div class="carousel-caption d-none d-md-block texto-borde">
+                    <h5>Pagina Web alternativa</h5>
+                    <p>Que tu empresa muestre los productos y servicios que ofrece</p>
                 </div>
             </div>
         </div>
@@ -355,7 +347,7 @@
 </div>
 
 <!-- Footer -->
-<footer class="page-footer bg-secondary text-white pt-4">
+<footer class="page-footer bg-green text-black pt-4">
 
     <!-- Footer Text -->
     <div class="container-fluid text-center text-md-left">
@@ -367,24 +359,33 @@
             <div class="col-md-6 mt-md-0 mt-3">
 
                 <!-- Content -->
-                <h5 class="text-uppercase font-weight-bold">Footer text 1</h5>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita sapiente sint, nulla, nihil repudiandae
-                    commodi voluptatibus corrupti animi sequi aliquid magnam debitis, maxime quam recusandae harum esse fugiat.
-                    Itaque, culpa?</p>
+                <h5 class="text-uppercase font-weight-bold">Ten presente que...</h5>
+                <p>Practicar el “pensamiento computacional” ayuda a aprender a resolver problemas y a procesar grandes volúmenes de información. Estimula la creatividad y aprendizajes vinculados al arte. Ayuda a desarrollar un pensamiento estructurado y a adquirir habilidades creativas y cognitivas que te harán ver los escenarios desde otro punto de vista.</p>
+                <a href="https://github.com/JoseAndres-py/semana-2-193"> Repositorio GitHub</a>
 
             </div>
             <!-- Grid column -->
 
-            <hr class="clearfix w-100 d-md-none pb-3">
+            <hr class="clearfix w-100 d-md-none pb-7">
 
             <!-- Grid column -->
             <div class="col-md-6 mb-md-0 mb-3">
 
                 <!-- Content -->
-                <h5 class="text-uppercase font-weight-bold">Footer text 2</h5>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio deserunt fuga perferendis modi earum commodi
-                    aperiam temporibus quod nulla nesciunt aliquid debitis ullam omnis quos ipsam, aspernatur id excepturi
-                    hic.</p>
+                <h5 class="text-uppercase font-weight-bold">Contactanos</h5>
+                <dl class="row">
+                    <dt class="col-sm-5 text-muted">Jose Andres Lopez Muñoz</dt>
+                    <dd class="col-sm-3"><a href="tel:3132926678">+57 3132926678</a></dd>
+                    <dt class="col-sm-5 text-muted">Luisa Fernanda Castellanos Rosales</dt>
+                    <dd class="col-sm-3"><a href="tel:3102453112">+57 310 2453112</a></dd>
+                    <dt class="col-sm-5 text-muted">Henry Alejandro Cáceres Téllez</dt>
+                    <dd class="col-sm-3"><a href="tel:3106788653">+57 310 6788653</a></dd>
+                    <dt class="col-sm-5 text-muted">Alberto Salazar Mayorga</dt>
+                    <dd class="col-sm-3"><a href="tel:3502347470">+57 350 2347470</a></dd>
+                    <dt class="col-sm-5 text-muted">María Fernanda Florez Rodríguez</dt>
+                    <dd class="col-sm-3"><a href="tel:3127747121">+57 312 7747121</a></dd>
+            
+                  </ul>
 
             </div>
             <!-- Grid column -->
