@@ -1,7 +1,8 @@
 <template>
   <div id="app">
+    <!-- Header -->
     <top-banner></top-banner>
-    
+
     <!-- Footer -->
     <page-footer></page-footer>
   </div>
