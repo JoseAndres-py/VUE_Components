@@ -18,12 +18,12 @@
     background-color: #d5f7e6;
 }
 .texto-borde {
-    -webkit-text-stroke: 2px #000;
     color: black; 
     text-shadow: 0 0 0.2em #e7e7e7;
   }
 .bg-fondo{
     background-color:  #e7e7e7;
+}
 
 .btn-green{
     color: #000;
@@ -41,4 +41,40 @@
 
 .card-text{
     height: 60%;
+}
+
+.nav-link{
+    font-size: 18px;
+}
+
+.h-80{
+    height: 80px;
+}
+
+.nav-link:hover{
+    font-size: 20px;
+    text-decoration: underline;
+    color: black;
+}
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%0' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%0' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.carousel-indicators li{
+    background-color: gray;
+    height: 5px;
+}
+
+.carousel-caption{
+    color: black;
+    background-color: #d5f7e6;
+    opacity: 0.9;
+    border-radius: 50px;
 }
