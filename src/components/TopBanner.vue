@@ -26,7 +26,7 @@
       </ol>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img class="d-block w-100" src="./img/banner.jpg" alt="First slide" />
+          <img class="d-block w-100" src="/img/banner.jpg" alt="First slide" />
           <div class="carousel-caption d-none d-md-block texto-borde">
             <h5>Bienvenido</h5>
             <p>Es un placer para nosotros prestarle nuestros servicios</p>
@@ -35,7 +35,7 @@
         <div class="carousel-item">
           <img
             class="d-block w-100"
-            src="./img/banner2.jpg"
+            src="/img/banner2.jpg"
             alt="First slide"
           />
           <div class="carousel-caption d-none d-md-block texto-borde">
@@ -46,7 +46,7 @@
         <div class="carousel-item">
           <img
             class="d-block w-100"
-            src="./img/banner3.jpg"
+            src="/img/banner3.jpg"
             alt="First slide"
           />
           <div class="carousel-caption d-none d-md-block texto-borde">

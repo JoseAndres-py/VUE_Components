@@ -1,6 +1,8 @@
 <template>
   <div id="app">
     <top-banner></top-banner>
+    
+    <!-- Footer -->
     <page-footer></page-footer>
   </div>
 </template>
