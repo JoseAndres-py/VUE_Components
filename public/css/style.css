@@ -102,3 +102,8 @@ img.teamImg{
     height: 15%;
     background-color: #d5f7e6;
 }
+
+.p-2{
+    text-align: justify;
+    justify-content: space-around;
+}
