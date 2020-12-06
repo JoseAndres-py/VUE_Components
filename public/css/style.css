@@ -102,3 +102,19 @@ img.teamImg{
     height: 15%;
     background-color: #d5f7e6;
 }
+
+.member-list{
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+
+.member-list {
+    list-style-type: circle;
+}
+
+.member-list{
+    width: 100%;
+}
+.repository-info > p{
+    margin: 1em
+}
