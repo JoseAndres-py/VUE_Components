@@ -1,11 +1,14 @@
 <template>
   <div id="app">
-
+    <!-- Header -->
+    <top-banner></top-banner>
+    
     <!-- Section Api -->
       <div class="text-center p-3 mb-2 bg-green text-dark title-section justify-content-center">
             <h2>Ultimas Noticias</h2>
       </div>
     <section-api></section-api>
+    
     <!-- members -->
     <div class="container-fluid">
       <div class="text-center p-3 mb-2 bg-green text-dark title-section justify-content-center">
@@ -19,6 +22,8 @@
     </div>
 
 
+    <!-- Footer -->
+    <page-footer></page-footer>
   </div>
 </template>
 
@@ -26,12 +31,16 @@
 
 import TeamCard from './components/TeamCard.vue'
 import SectionApi from './components/SectionApi.vue'
+import PageFooter from './components/PageFooter.vue'
+import TopBanner from './components/TopBanner.vue'
 
 export default {
   name: 'App',
   components : {
     TeamCard,
-    SectionApi
+    SectionApi,
+    PageFooter,
+    TopBanner,
   },
   data() {
     return {
@@ -74,7 +83,5 @@ export default {
       ],
     }
   }
-  
-}
 </script>
 
