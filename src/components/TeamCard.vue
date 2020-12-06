@@ -1,6 +1,6 @@
 <template>
-    <div class="box card text-black bg-light">
-    <div class="d-flex justify-content-center p-2">
+    <div class="box card team-card text-black bg-light">
+        <div class="d-flex justify-content-center p-2">
             <img v-bind:src= "member.image" v-bind:alt= "member.nombre" class="teamImg mt-3">
         </div>
         <div class="card-body text-center">

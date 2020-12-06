@@ -1,12 +1,17 @@
 <template>
   <div id="app">
 
+    <!-- Section Api -->
+      <div class="text-center p-3 mb-2 bg-green text-dark title-section justify-content-center">
+            <h2>Ultimas Noticias</h2>
+      </div>
+    <section-api></section-api>
     <!-- members -->
     <div class="container-fluid">
       <div class="text-center p-3 mb-2 bg-green text-dark title-section justify-content-center">
             <h2>Equipo de Desarrollo</h2>
       </div>
-      <div class="row justify-content-center mb-3">
+      <div class="row justify-content-center mb-3 mb-5">
         <div class="col mt-3"  v-for="(item, index) in team" :key="index" >
           <team-card v-bind:member="item"> </team-card>
         </div>
@@ -20,11 +25,13 @@
 <script>
 
 import TeamCard from './components/TeamCard.vue'
+import SectionApi from './components/SectionApi.vue'
 
 export default {
   name: 'App',
   components : {
-    TeamCard
+    TeamCard,
+    SectionApi
   },
   data() {
     return {

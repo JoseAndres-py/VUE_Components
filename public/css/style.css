@@ -46,7 +46,7 @@ img.teamImg{
     border-color: #d5f7e6;
 }
 
-.card{
+.card.team-card{
     height: 100%;
 }
 
