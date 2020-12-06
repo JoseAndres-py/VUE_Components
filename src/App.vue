@@ -83,5 +83,6 @@ export default {
       ],
     }
   }
+}
 </script>
 
