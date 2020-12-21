@@ -30,27 +30,27 @@
                         <tr>
                             <td>Jose Andres</td>
                             <td>Product Owner</td>
-                            <td><a href="tel:3132926678">+57 3132926678</a></td>
+                            <td><a href="tel:3132926678">+57</a></td>
                         </tr>
                         <tr>
                             <td>Luisa Fernanda </td>
                             <td>Team Member</td>
-                            <td><a href="tel:3102453112">+57 310 2453112</a></td>
+                            <td><a href="tel:3102453112">+57</a></td>
                         </tr>
                         <tr>
                             <td>Henry Alejandro</td>
                             <td>Team Member</td>
-                            <td><a href="3106788653">+57 310 6788653</a></td>
+                            <td><a href="3106788653">+57</a></td>
                         </tr>
                         <tr>
                             <td>Alberto Salazar</td>
                             <td>Team Member</td>
-                            <td><a href="tel:3502347470">+57 350 2347470</a></td>
+                            <td><a href="tel:3502347470">+57</a></td>
                         </tr>
                         <tr>
                             <td>Maria Fernanda</td>
                             <td>Team Member</td>
-                            <td><a href="3127747121">+57 312 7747121</a></td>
+                            <td><a href="3127747121">+57</a></td>
                         </tr>
                     </table>
 
