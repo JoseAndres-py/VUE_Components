@@ -7,6 +7,7 @@ durante la sesión 3.
 
 Se debe contar con una sección para los integrantes que consumirá la información de los miembros desde un JSON tal como se explicó en la sesión 4. Como ejemplo del resultado esperado durante la sesión se mostrará el sitio web funcionando con los componentes base necesarios.
 
+
 <p align="center">
-  <img src="https://iili.io/KhMO37.png" width="550"/>
+  <img src="https://iili.io/KhMO37.png" width="700"/>
 </p>
