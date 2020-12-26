@@ -14,6 +14,8 @@ Se debe contar con una sección para los integrantes que consumirá la informaci
 
 ## Colombia News Api
 
+Usando la API Rest "NEWS API" se obtienen las utimas cuatro noticias mas reelevantes en colombia. para ser mostradas por medio de un componente de VUE.
+
 
 <p align="center">
   <img src="https://iili.io/KhMea9.png" width="700"/>
